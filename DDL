@@ -1,0 +1,6 @@
+CREATE TABLE QUESTION(
+question_id INT PRIMARY KEY
+,db_id UUID NOT NULL
+,description VARCHAR(6000) NOT NULL
+,schema_ddl VARCHAR(6000) NOT NULL
+)
